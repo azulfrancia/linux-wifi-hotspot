@@ -42,7 +42,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 #define SUDO "pkexec --user root"
-#define CREATE_AP "create_ap"
+#define CREATE_AP "create_ap --dhcp-dns 12345"
 
 #define MKCONFIG "--mkconfig"
 #define LOAD_CONFIG "--config"
